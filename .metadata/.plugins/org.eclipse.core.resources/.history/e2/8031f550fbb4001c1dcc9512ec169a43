@@ -1,0 +1,5 @@
+package com.rest.api.pokedex.core.model;
+
+public class PokemonDto {
+
+}

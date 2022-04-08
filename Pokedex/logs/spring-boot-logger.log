@@ -1,0 +1,145 @@
+2022-04-08 06:26:15,496 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PokedexApplication using Java 1.8.0_201 on LAPTOP-SK46QSKN with PID 4568 (C:\Users\52554\Documents\pokedexRestApi\Pokedex\target\classes started by Jesus in C:\Users\52554\Documents\pokedexRestApi\Pokedex)
+2022-04-08 06:26:15,497 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "default"
+2022-04-08 06:26:15,717 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-08 06:26:15,724 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2022-04-08 06:26:15,874 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9097 (http)
+2022-04-08 06:26:15,875 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-08 06:26:15,876 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-08 06:26:15,893 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-08 06:26:15,893 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 393 ms
+2022-04-08 06:26:15,920 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-04-08 06:26:15,926 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-04-08 06:26:15,933 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-08 06:26:15,939 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-04-08 06:26:15,947 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-08 06:26:15,948 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-08 06:26:15,984 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-08 06:26:16,086 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-08 06:26:16,100 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9097 (http) with context path ''
+2022-04-08 06:26:16,104 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PokedexApplication in 0.695 seconds (JVM running for 397.234)
+2022-04-08 06:26:16,106 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-08 06:27:31,679 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-9] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-08 06:27:31,681 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-2 - Shutdown initiated...
+2022-04-08 06:27:31,687 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-2 - Shutdown completed.
+2022-04-08 06:37:56,094 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PokedexApplication using Java 1.8.0_201 on LAPTOP-SK46QSKN with PID 4568 (C:\Users\52554\Documents\pokedexRestApi\Pokedex\target\classes started by Jesus in C:\Users\52554\Documents\pokedexRestApi\Pokedex)
+2022-04-08 06:37:56,095 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-08 06:37:56,095 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "default"
+2022-04-08 06:37:56,209 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-08 06:37:56,212 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2022-04-08 06:37:56,281 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9097 (http)
+2022-04-08 06:37:56,281 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-08 06:37:56,281 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-08 06:37:56,291 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-08 06:37:56,291 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 195 ms
+2022-04-08 06:37:56,301 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Starting...
+2022-04-08 06:37:56,304 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Start completed.
+2022-04-08 06:37:56,307 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-08 06:37:56,310 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-04-08 06:37:56,314 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-08 06:37:56,314 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-08 06:37:56,329 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-08 06:37:56,374 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-08 06:37:56,379 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9097 (http) with context path ''
+2022-04-08 06:37:56,381 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PokedexApplication in 0.307 seconds (JVM running for 1097.511)
+2022-04-08 06:37:56,382 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-08 06:38:41,661 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-39] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-08 06:38:41,661 INFO com.zaxxer.hikari.HikariDataSource [Thread-39] HikariPool-7 - Shutdown initiated...
+2022-04-08 06:38:41,664 INFO com.zaxxer.hikari.HikariDataSource [Thread-39] HikariPool-7 - Shutdown completed.
+2022-04-08 06:38:41,752 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PokedexApplication using Java 1.8.0_201 on LAPTOP-SK46QSKN with PID 4568 (C:\Users\52554\Documents\pokedexRestApi\Pokedex\target\classes started by Jesus in C:\Users\52554\Documents\pokedexRestApi\Pokedex)
+2022-04-08 06:38:41,753 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-08 06:38:41,753 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "default"
+2022-04-08 06:38:41,867 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-08 06:38:41,870 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2022-04-08 06:38:41,940 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9097 (http)
+2022-04-08 06:38:41,941 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-08 06:38:41,941 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-08 06:38:41,950 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-08 06:38:41,950 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 196 ms
+2022-04-08 06:38:41,960 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+2022-04-08 06:38:41,962 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+2022-04-08 06:38:41,965 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-08 06:38:41,968 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-04-08 06:38:41,971 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-08 06:38:41,972 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-08 06:38:41,987 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-08 06:38:42,032 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-08 06:38:42,037 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9097 (http) with context path ''
+2022-04-08 06:38:42,039 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PokedexApplication in 0.306 seconds (JVM running for 1143.169)
+2022-04-08 06:38:42,040 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-08 06:45:55,478 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9097-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-08 06:45:55,479 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9097-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-04-08 06:45:55,480 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9097-exec-2] Completed initialization in 1 ms
+2022-04-08 06:45:55,489 INFO com.rest.api.pokedex.core.controller.PokemonController [http-nio-9097-exec-2] ingresa a capa de controller obtenerListaPokemon Method:: PUT..
+2022-04-08 06:45:55,490 INFO com.rest.api.pokedex.core.service.impl.PokemonService [http-nio-9097-exec-2] pasando metodo de actualizarPokemon en capa de servicio..
+2022-04-08 06:45:55,492 INFO com.rest.api.pokedex.core.repository.impl.PokemonRepository [http-nio-9097-exec-2] ingresa a capa de Repository :: actualizarPokemon
+2022-04-08 06:45:55,493 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-9097-exec-2] ==>  Preparing: UPDATE pokemon SET nombre=?, tipo =?, habilidad =?, imagen =? WHERE idPokemon =? 
+2022-04-08 06:45:55,495 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-9097-exec-2] ==> Parameters: Charmander(String), Fuego(String), Lanzallamas(String), [B@7739aae2(byte[]), 1(Integer)
+2022-04-08 06:45:55,496 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-9097-exec-2] <==    Updates: 0
+2022-04-08 06:45:57,698 INFO com.rest.api.pokedex.core.controller.PokemonController [http-nio-9097-exec-3] ingresa a capa de controller obtenerListaPokemon Method:: PUT..
+2022-04-08 06:45:57,699 INFO com.rest.api.pokedex.core.service.impl.PokemonService [http-nio-9097-exec-3] pasando metodo de actualizarPokemon en capa de servicio..
+2022-04-08 06:45:57,699 INFO com.rest.api.pokedex.core.repository.impl.PokemonRepository [http-nio-9097-exec-3] ingresa a capa de Repository :: actualizarPokemon
+2022-04-08 06:45:57,699 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-9097-exec-3] ==>  Preparing: UPDATE pokemon SET nombre=?, tipo =?, habilidad =?, imagen =? WHERE idPokemon =? 
+2022-04-08 06:45:57,701 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-9097-exec-3] ==> Parameters: Charmander(String), Fuego(String), Lanzallamas(String), [B@3f13ee73(byte[]), 1(Integer)
+2022-04-08 06:45:57,702 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-9097-exec-3] <==    Updates: 0
+2022-04-08 06:46:21,474 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-43] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-08 06:46:21,474 INFO com.zaxxer.hikari.HikariDataSource [Thread-43] HikariPool-8 - Shutdown initiated...
+2022-04-08 06:46:21,476 INFO com.zaxxer.hikari.HikariDataSource [Thread-43] HikariPool-8 - Shutdown completed.
+2022-04-08 06:46:21,599 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PokedexApplication using Java 1.8.0_201 on LAPTOP-SK46QSKN with PID 4568 (C:\Users\52554\Documents\pokedexRestApi\Pokedex\target\classes started by Jesus in C:\Users\52554\Documents\pokedexRestApi\Pokedex)
+2022-04-08 06:46:21,599 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-08 06:46:21,599 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "default"
+2022-04-08 06:46:21,712 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-08 06:46:21,715 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2022-04-08 06:46:21,781 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9097 (http)
+2022-04-08 06:46:21,782 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-08 06:46:21,782 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-08 06:46:21,791 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-08 06:46:21,791 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 190 ms
+2022-04-08 06:46:21,802 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Starting...
+2022-04-08 06:46:21,804 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Start completed.
+2022-04-08 06:46:21,807 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-08 06:46:21,810 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-04-08 06:46:21,813 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-08 06:46:21,813 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-08 06:46:21,828 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-08 06:46:21,871 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-08 06:46:21,877 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9097 (http) with context path ''
+2022-04-08 06:46:21,879 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PokedexApplication in 0.3 seconds (JVM running for 1603.01)
+2022-04-08 06:46:21,880 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-08 06:46:26,357 INFO org.apache.juli.logging.DirectJDKLog [http-nio-9097-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-08 06:46:26,357 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9097-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-04-08 06:46:26,358 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-9097-exec-2] Completed initialization in 1 ms
+2022-04-08 06:46:26,368 INFO com.rest.api.pokedex.core.controller.PokemonController [http-nio-9097-exec-2] ingresa a capa de controller obtenerListaPokemon Method:: PUT..
+2022-04-08 06:46:26,368 INFO com.rest.api.pokedex.core.service.impl.PokemonService [http-nio-9097-exec-2] pasando metodo de actualizarPokemon en capa de servicio..
+2022-04-08 06:46:26,370 INFO com.rest.api.pokedex.core.repository.impl.PokemonRepository [http-nio-9097-exec-2] ingresa a capa de Repository :: actualizarPokemon
+2022-04-08 06:46:26,371 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-9097-exec-2] ==>  Preparing: UPDATE pokemon SET nombre=?, tipo =?, habilidad =?, imagen =? WHERE idPokemon =? 
+2022-04-08 06:46:26,372 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-9097-exec-2] ==> Parameters: Charmander(String), Fuego(String), Lanzallamas(String), [B@4bb13e0b(byte[]), 1(Integer)
+2022-04-08 06:46:26,372 DEBUG org.apache.ibatis.logging.jdbc.BaseJdbcLogger [http-nio-9097-exec-2] <==    Updates: 0
+2022-04-08 06:53:57,955 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-47] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-08 06:53:57,955 INFO com.zaxxer.hikari.HikariDataSource [Thread-47] HikariPool-9 - Shutdown initiated...
+2022-04-08 06:53:57,956 INFO com.zaxxer.hikari.HikariDataSource [Thread-47] HikariPool-9 - Shutdown completed.
+2022-04-08 06:53:58,083 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting PokedexApplication using Java 1.8.0_201 on LAPTOP-SK46QSKN with PID 4568 (C:\Users\52554\Documents\pokedexRestApi\Pokedex\target\classes started by Jesus in C:\Users\52554\Documents\pokedexRestApi\Pokedex)
+2022-04-08 06:53:58,083 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-08 06:53:58,083 INFO org.springframework.boot.SpringApplication [restartedMain] The following 1 profile is active: "default"
+2022-04-08 06:53:58,193 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-08 06:53:58,196 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2022-04-08 06:53:58,262 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9097 (http)
+2022-04-08 06:53:58,263 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-08 06:53:58,263 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-08 06:53:58,271 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-08 06:53:58,271 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 187 ms
+2022-04-08 06:53:58,282 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Starting...
+2022-04-08 06:53:58,284 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Start completed.
+2022-04-08 06:53:58,287 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-08 06:53:58,290 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-04-08 06:53:58,293 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-08 06:53:58,293 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-08 06:53:58,307 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-08 06:53:58,350 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-08 06:53:58,355 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 9097 (http) with context path ''
+2022-04-08 06:53:58,358 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started PokedexApplication in 0.294 seconds (JVM running for 2059.488)
+2022-04-08 06:53:58,358 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-08 07:06:49,407 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-10 housekeeper] HikariPool-10 - Thread starvation or clock leap detected (housekeeper delta=3m50s796ms240µs).
+2022-04-08 07:21:39,274 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-10 housekeeper] HikariPool-10 - Thread starvation or clock leap detected (housekeeper delta=10m19s787ms402µs900ns).
+2022-04-08 07:22:53,054 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-51] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-08 07:22:53,058 INFO com.zaxxer.hikari.HikariDataSource [Thread-51] HikariPool-10 - Shutdown initiated...
+2022-04-08 07:22:53,067 INFO com.zaxxer.hikari.HikariDataSource [Thread-51] HikariPool-10 - Shutdown completed.

@@ -1,0 +1,48 @@
+package com.rest.api.pokedex.core.repository;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import com.rest.api.pokedex.core.model.LstPokemonDto;
+import com.rest.api.pokedex.core.model.PokemonDto;
+import com.rest.api.pokedex.core.model.ResponseDto;
+import com.rest.api.pokedex.core.repository.mapper.IPokemonMapper;
+
+@Repository
+public class PokemonRepository implements IPokemonRepository{
+	
+	@Autowired
+	IPokemonMapper pokemonMapper;
+
+	@Override
+	public PokemonDto obtenerPokemon() {
+		return pokemonMapper.
+	}
+
+	@Override
+	public ResponseDto actualizarPokemon(PokemonDto pokemon) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ResponseDto registrarPokemon(PokemonDto pokemon) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ResponseDto borrarPokemon(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public LstPokemonDto obtenerListaPokemon() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	
+
+}

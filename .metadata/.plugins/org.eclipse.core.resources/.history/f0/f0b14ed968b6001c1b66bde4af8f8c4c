@@ -1,0 +1,10 @@
+package com.rest.api.pokedex.core;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@MapperScan(basePackages = "com.rest.api.pokedex.core.repository.mapper", sqlSessionFactoryRef = JpaDataSource.SQL_SESSION_FACTORY_NAME)
+public class JpaConfig {
+	
+
+}

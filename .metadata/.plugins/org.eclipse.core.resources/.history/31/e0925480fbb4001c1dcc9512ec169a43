@@ -1,0 +1,23 @@
+package com.rest.api.pokedex.core.service.impl;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+
+import com.rest.api.pokedex.core.model.PokemonDto;
+import com.rest.api.pokedex.core.service.IPokemonService;
+
+@Service
+public class PokemonService implements IPokemonService{
+
+	@Override
+	public ResponseEntity<PokemonDto> obtenerPokemon() {
+		PokemonDto pokemon = new PokemonDto();
+		pokemon.setNombre("Charmander");
+		pokemon.setTipo("Fuego");
+		pokemon.setHabilidad("Lanzallamas");
+		
+		return new PokemonDto(0, "Pikachu", "Electrico", "tacleada de volteos");
+		return null;
+	}
+	
+}

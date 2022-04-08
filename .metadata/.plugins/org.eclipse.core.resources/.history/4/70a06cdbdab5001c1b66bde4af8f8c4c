@@ -1,0 +1,18 @@
+package com.rest.api.pokedex.core.service;
+
+
+import com.rest.api.pokedex.core.model.PokemonDto;
+import com.rest.api.pokedex.core.model.ResponseDto;
+
+public interface IPokemonService {
+
+	public PokemonDto obtenerPokemon();
+
+
+	public ResponseDto actualizarPokemon(PokemonDto pokemon);
+
+
+	public ResponseDto registrarPokemon(PokemonDto pokemon);
+
+
+}

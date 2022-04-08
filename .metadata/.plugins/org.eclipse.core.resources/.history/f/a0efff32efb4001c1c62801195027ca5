@@ -1,0 +1,5 @@
+package com.rest.api.pokedex.core.controller;
+
+public class PokemonController {
+
+}

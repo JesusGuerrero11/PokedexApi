@@ -1,0 +1,43 @@
+package com.rest.api.pokedex.core.service.impl;
+
+import org.springframework.stereotype.Service;
+
+import com.rest.api.pokedex.core.model.LstPokemonDto;
+import com.rest.api.pokedex.core.model.PokemonDto;
+import com.rest.api.pokedex.core.model.ResponseDto;
+import com.rest.api.pokedex.core.service.IPokemonService;
+
+@Service
+public class PokemonService implements IPokemonService{
+
+	@Override
+	public PokemonDto obtenerPokemon() {
+		return new PokemonDto(0,"Pikachu", "Electrico", "tacleada de volteos");
+	}
+
+	@Override
+	public ResponseDto actualizarPokemon(PokemonDto pokemon) {
+		 
+		return new ResponseDto(0, "metodo de ejemplo put");
+	}
+
+	@Override
+	public ResponseDto registrarPokemon(PokemonDto pokemon) {
+		return new ResponseDto(0, "Ejemplo de metodo post");
+	}
+
+	@Override
+	public ResponseDto borrarPokemon(Integer id) {
+		return new ResponseDto(0, "Ejemplo de metodo delete");
+	}
+
+	@Override
+	public LstPokemonDto obtenerListaPokemon() {
+		LstPokemonDto lst = new LstPokemonDto();
+		
+		return lst;
+	}
+
+	
+	
+}

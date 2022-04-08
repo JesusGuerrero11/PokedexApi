@@ -1,0 +1,46 @@
+package com.rest.api.pokedex.core.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.rest.api.pokedex.core.model.LstPokemonDto;
+import com.rest.api.pokedex.core.model.PokemonDto;
+import com.rest.api.pokedex.core.model.ResponseDto;
+import com.rest.api.pokedex.core.repository.IPokemonRepository;
+import com.rest.api.pokedex.core.service.IPokemonService;
+
+@Service
+public class PokemonService implements IPokemonService{
+	
+	@Autowired
+	IPokemonRepository pokemonRepository;
+
+	@Override
+	public PokemonDto obtenerPokemon(Integer id) {
+		return pokemonRepository.obtenerPokemon(id);
+	
+	}
+
+	@Override
+	public ResponseDto actualizarPokemon(PokemonDto pokemon) {
+		return pokemonRepository.actualizarPokemon(pokemon);
+	}
+
+	@Override
+	public ResponseDto registrarPokemon(PokemonDto pokemon) {
+		return pokemonRepository.registrarPokemon(pokemon);
+	}
+
+	@Override
+	public ResponseDto borrarPokemon(Integer id) {
+		return pokemonRepository.borrarPokemon(id);
+	}
+
+	@Override
+	public LstPokemonDto obtenerListaPokemon() {
+		return pokemonRepository.obtenerListaPokemon();
+	}
+
+	
+	
+}

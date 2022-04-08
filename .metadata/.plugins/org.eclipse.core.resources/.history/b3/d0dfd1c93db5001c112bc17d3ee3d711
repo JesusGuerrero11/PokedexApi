@@ -1,0 +1,24 @@
+package com.rest.api.pokedex.core.service.impl;
+
+import org.springframework.stereotype.Service;
+import com.rest.api.pokedex.core.model.PokemonDto;
+import com.rest.api.pokedex.core.service.IPokemonService;
+
+@Service
+public class PokemonService implements IPokemonService{
+
+	@Override
+	public PokemonDto obtenerPokemon() {
+//		PokemonDto pokemon = new PokemonDto();
+//		pokemon.setNombre("Charmander");
+//		pokemon.setTipo("Fuego");
+//		pokemon.setHabilidad("Lanzallamas");
+		return new PokemonDto("Pikachu", "Electrico", "tacleada de volteos");
+	}
+
+	@Override
+	public String registrarPokemon() {
+		return "Este es un metodo put";
+	}
+	
+}

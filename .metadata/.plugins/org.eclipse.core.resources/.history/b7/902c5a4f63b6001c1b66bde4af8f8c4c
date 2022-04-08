@@ -1,0 +1,13 @@
+package com.rest.api.pokedex.core;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class DataSourceConfig {
+	
+//	public static final String DATA_SOURCE_MYSQL = "mysqlDataSource";
+//	
+//	@Bean
+
+}

@@ -1,0 +1,40 @@
+package com.rest.api.pokedex.core.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.rest.api.pokedex.core.model.PokemonDto;
+import com.rest.api.pokedex.core.service.IPokemonService;
+
+@RestController
+@RequestMapping(value="/api/v1")
+public class PokemonController {
+	
+	@Autowired
+	private IPokemonService pokemonService;
+	
+	
+	@GetMapping(value="/saludo")
+	public ResponseEntity<String> saludo() {
+		return new ResponseEntity<>("Hola Mundo Spring",HttpStatus.OK);
+	}
+	
+	@GetMapping(value="/pokemon")
+	public ResponseEntity<PokemonDto> obtenerPokemon(){
+		return new ResponseEntity<>(pokemonService.obtenerPokemon(),HttpStatus.OK);
+	}
+	
+	@PutMapping(value="/pokemon")
+	public ResponseEntity<String> registrarPokemon(){
+		return ResponseEntity.ok("Hola");
+		
+		
+		
+//		return new ResponseEntity<>(pokemonService.registrarPokemon(),HttpStatus.OK);
+	}
+}
